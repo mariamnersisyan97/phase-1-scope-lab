@@ -10,11 +10,21 @@ function setBestCustomer() {
 function overwriteBestCustomer() {
     bestCustomer = 'maybe bob';
 }
-const leastFavoriteCustomer = 'some value';
-function changeLeastFavoriteCustomer() {
-    leastFavoriteCustomer = 'some other value';
 
+
+const leastFavoriteCustomer = 'some guy';
+
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = 'new guy'
 }
+
+
+
+// const leastFavoriteCustomer = 'some value';
+// function changeLeastFavoriteCustomer() {
+//     leastFavoriteCustomer = 'some other value';
+
+// }
 
 //   describe('changeLeastFavoriteCustomer()', function() {
 //     it('unsuccessfully tries to reassign the least favorite customer', function() {
